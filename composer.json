@@ -1,0 +1,21 @@
+{
+    "name": "pcrmapping/socialite-osu",
+    "description": "Laravel Socialite provider for osu! OAuth",
+    "type": "library",
+    "require": {
+        "socialiteproviders/manager": "^4.3",
+        "ext-json": "*"
+    },
+    "license": "Apache2",
+    "autoload": {
+        "psr-4": {
+            "PcrMapping\\SocialiteOsu\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tilda",
+            "email": "iamtheworst@programmer.net"
+        }
+    ]
+}
